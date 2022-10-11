@@ -1,0 +1,22 @@
+header
+-----------
+nav
+-----------
+section
+-----------
+
+          -------      aside
+
+article
+-----------
+
+footer
+-----------
+
+user + seo friendly must
+title 
+====================
+font name : dm,sans serif
+title format h1,h2,h3
+
+font-family: 'DM Sans', sans-serif;

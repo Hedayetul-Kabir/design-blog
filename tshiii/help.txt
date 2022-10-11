@@ -1,0 +1,9 @@
+.container {
+    width: 75%;
+    margin: 0 auto;
+
+ }
+page middle e design korte use kora hoy.
+
+
+search bttn space------

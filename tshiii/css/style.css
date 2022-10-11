@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,ol{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+
+/* ===============
+nav start
+==================*/
+
+nav{
+  padding: 40px 0;
+}
+
+nav .nav{
+  display: flex;
+}
+
+nav .nav .logo{
+  width: 20%;
+}
+nav .nav .nav-list{
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav .nav .nav-list ul {
+  display: flex;
+  column-gap: 40px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+nav .nav .nav-list i {
+  font-size: 22px;
+  color: #000;
+}
+nav .nav .nav-list i:hover {
+  font-size: 22px;
+  color: rgba(0, 0, 0,.3);
+  transition: .3s;
+}
+
+
+nav .nav .nav-list li a{  
+  color: rgb(0, 0, 0);
+  transition: .3s;
+}
+nav .nav .nav-list li a:hover{  
+  color: rgba(0, 0, 0,.3);
+  transition: .3s;
+}
+
+
+/* ===============
+nav end
+==================*/
+
+/* ===============
+banner start
+==================*/
+
+.banner{
+  position: relative;
+  margin: 100px 0;
+}
+
+.banner h1 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 75px;
+  font-weight: 400;
+  width: 610px;
+  margin-left: 170px;
+}
+
+.banner .banner-icon {
+  color: #e1c004;
+  position: absolute;
+  top: -23px;
+  left: 130px;
+}
+
+/* ===============
+banner end
+==================*/
+
+.recent-post{
+  background: #F2F3E8;
+  padding: 80px 0;
+}
+
+.recent-post .recent-title{
+  display: flex;
+  justify-content: space-between;
+}
+
+.recent-post .recent-title h3{
+  font-family: 'DM Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.recent-post .recent-title .right a{
+  font-family: 'DM Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #000;
+}
+
+.recent-post .recent-content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+}
+
+.recent-post .recent-content .card {
+  width: 32%;
+  background: #fff;
+  margin-top: 10px;
+  margin-top: 35px;
+}
+.recent-post .recent-content .card img{
+  width:100%;
+}
+
+.recent-post .recent-content .card .card-body{
+  padding: 20px;
+}
+
+
+.recent-post .recent-content .card .card-cal ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+.recent-post .recent-content .card .card-cal ul li{ 
+ font-size: 18px;
+ font-weight: 700;
+}
+
+.recent-post .recent-content .card .content h3{ 
+  font-family: "DM Sans",sans-serif;
+  color: #0a101a;
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.recent-post .recent-content .card .content p{ 
+  font-family: "DM Sans",sans-serif;
+  color: #0a101a;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.recent-post .recent-content .card .card-body .author {
+  margin-top: 20px;
+ display: flex;
+}
+
+.recent-post .recent-content .card .card-body .author picture img{
+  border-radius: 50%;
+  object-fit: cover;
+  width: 42px;
+  margin-right: 20px;
+
+}
