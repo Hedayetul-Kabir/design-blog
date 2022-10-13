@@ -83,7 +83,7 @@ nav .nav .nav-list li a:hover {
 }
 
 .banner .banner-icon {
-  color: #e1c004;
+  color: #dd9b46c9;
   position: absolute;
   top: -23px;
   left: 130px;
@@ -189,34 +189,33 @@ nav .nav .nav-list li a:hover {
 
 .recent-post .recent-content .card .card-cal ul li {
   font-size: 18px;
-  font-weight: 700;
 }
 
 .recent-post .recent-content .card .content h3 {
   font-family: "DM Sans", sans-serif;
   color: #0a101a;
-  font-weight: 500;
+  /*! font-weight: 500; */
   font-size: 24px;
-  margin-top: 30px;
+  margin-top: 12px;
 }
 
 .recent-post .recent-content .card .content p {
   font-family: "DM Sans", sans-serif;
   color: #0a101a;
-  font-weight: 400;
-  font-size: 14px;
+
+  font-size: 16px;
   margin-top: 10px;
 }
 
 .recent-post .recent-content .card .card-body .author {
-  margin-top: 20px;
+  margin-top: 39px;
   display: flex;
 }
 
 .recent-post .recent-content .card .card-body .author picture img {
   border-radius: 50%;
   object-fit: cover;
-  width: 42px;
+  width: 39px;
   margin-right: 20px;
 }
 /* ===============
@@ -305,8 +304,8 @@ nav .nav .nav-list li a:hover {
 .author .author-card img {
   width: 95px;
   height: 95px;
-  padding: 5px;
-  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.7);
+  /*! padding: 5px; */
+  /*! box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.7); */
   box-sizing: border-box;
 }
 
@@ -326,12 +325,13 @@ nav .nav .nav-list li a:hover {
 .author .author-card .author-text p {
   margin: 0;
   padding-top: 5px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .author .author-card .author-text .bt-text {
-  margin-top: 10px;
-  font-size: 16px;
+  font-weight: 500;
+  margin-left: 24px;
+  font-size: 14px;
 }
 
 /*
@@ -427,7 +427,7 @@ h5,
 h6 {
   line-height: 1.4;
   font-family: "DM Sans", sans-serif;
-  color: #0a101a;
+  color: #0a101ab5;
   font-weight: 500;
 }
 .h2,
