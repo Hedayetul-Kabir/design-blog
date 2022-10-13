@@ -542,3 +542,8 @@ footer {
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
 }
+
+.bg-white .text-link i::before {
+  content: "/";
+  color: red;
+}
