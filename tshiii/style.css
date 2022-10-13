@@ -451,10 +451,13 @@ h6 {
 /*-----------------*/
 /****************************/
 /**newsletter**/
-/.line-bg-fff {
+.line-bg-fff {
   background-color: #fff;
   width: 100px;
   height: 390px;
+}
+.col-x {
+  display: flex;
 }
 .newsletter-block {
   padding: 100px 0;
@@ -518,18 +521,11 @@ hr {
   padding-left: 20px;
 }
 /*******scroll********/
-.scroll-to-top.shown {
+.scroll-shown {
   opacity: 1;
   visibility: visible;
   bottom: 30px;
-}
-[type="button"]:not(:disabled),
-[type="reset"]:not(:disabled),
-[type="submit"]:not(:disabled),
-button:not(:disabled) {
-  cursor: pointer;
-}
-.scroll-to-top {
+
   position: fixed;
   right: 30px;
   background-color: #0a101a;
