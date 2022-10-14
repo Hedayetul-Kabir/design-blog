@@ -451,20 +451,41 @@ h6 {
 /*-----------------*/
 /****************************/
 /**newsletter**/
-.line-bg-fff {
+.nws-x .brdr-x {
   background-color: #fff;
-  width: 100px;
-  height: 390px;
-}
-.col-x {
-  display: flex;
-}
-.newsletter-block {
+  width: 100%;
+  height: auto;
   padding: 100px 0;
 }
+.nws-x .container {
+  max-width: 1176px;
+  height: 224px;
+  width: 100%;
+  padding-right: var(--bs-gutter-x,.75rem);
+  padding-left: var(--bs-gutter-x,.75rem);
+  margin-right: auto;
+  margin-left: auto;
+  }
+}
+.align-x {
+  display: flex;
+  justify-content: space-between;
+}
+.nws-x .h2-x .align-x {
+  color: red;
+  justify-content: space-between;
+}
+.nws-x .h2-x .align-x .form-x {
+  color: red;
+  display: flex;
+}
+
+.newsletter-block {
+  padding: 100px 0;
+} 
 .border-bottom {
   border-bottom: 1px solid #dee2e6 !important;
-}
+} 
 .footer .container,
 .container-lg,
 .container-md,
@@ -474,14 +495,14 @@ h6 {
 }
 .mb-3 {
   margin-bottom: 1rem !important;
-}
+}/*
 .pe-x {
   padding-right: 1.5rem !important;
-}
+}/*
 .col-xl-5 {
   flex: 0 0 auto;
   width: 41.66666667%;
-}
+}*/
 /**end nwsltr***/
 /*footer*/
 hr {
