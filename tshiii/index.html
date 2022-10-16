@@ -113,7 +113,8 @@
             </div>
 
             <div class="content">
-              <h3>What Do You Do When You Know You’re Not Fine?</h3>
+              <h3> What Do You Do When You Know You’re Not Fine?
+              </h3>
               <p>
                 Something was wrong with me. But what? Most of the physicians
                 I’ve seen in my life made me feel like they didn’t care about...
@@ -423,7 +424,7 @@
                 stroke-linecap='round' stroke-linejoin='round' />
             </svg>
           </div>
-          <h3>Recent Post</h3>
+          <h3>Featured-post</h3>
         </div>
         <div class="right">
           <a class="text-link lead active" href="#">Featured Post <i class="fa-solid fa-arrow-right"></i></a>
@@ -580,12 +581,12 @@
   </section>
   <!---end-Featured-Posts--->
   <!--start POM -->
-  <section class="post-of-the-month" style="background-image: url('./asset/post-of-the-month.webp')">
+  <section class="pom" style="background-image: url('./asset/post-of-the-month.webp')">
     <div class="container">
       <div class="row">
         <div class="text-center">
           <div class="mb-5 pb-4">
-            <h2 class="text-uppercase h6 text-black bg-white">Post of the month</h2>
+            <h2 class="h6-pom"> Post of the month </h2>
           </div>
           <ul class="post-meta list-inline mb-3 text-light">
             <li class="list-inline-item">
@@ -596,18 +597,20 @@
               <i class="ti ti-clock-2 me-1"></i>02 min read
             </li>
           </ul>
-          <h3 class="h2 post-title mb-4 position-relative">
-            <a class="text-white text-link stretched-link" href="blog-single.html">The nine-to-five Is Dead. Here’s What
-              to Replace It With</a>
-          </h3>
+          <div class="post-title">
+            <h3 class="h2 post-title mb-4 position-relative">
+              <a class="text-link stretched-link" href="blog-single.html">The nine-to-five Is Dead. Here’s What to
+                Replace
+                It With</a>
+            </h3>
+          </div>
           <div class="post-author">
             <a href="author-single.html" class="is-hoverable" title="Read all posts of - Alexander Hipp">
               <img loading="lazy" class="w-auto rounded-circle me-2" src="asset/alexander-hipp.jpg" alt="Alexander Hipp"
                 width="26" height="26">
             </a>
             <span class="text-light">by </span>
-            <a href="author-single.html" class="text-link text-white"
-              title="Read all posts of - Alexander Hipp">Alexander Hipp</a>
+            <a href="-" class="text-link">Alexander Hipp</a>
           </div>
         </div>
       </div>
@@ -616,40 +619,33 @@
   <!--end POM -->
 
   <!---start newsletter--->
-  <section class="nws-x">
-    <div class="brdr-x">
+
+  <section class="nws">
+    <div class="brdr">
       <div class="container">
-        <div class="align-x">
-          <div class="pe-x">
-            <h2 class="h2-x">Subscribe to our monthly newsletter</h2>
-            <p class="p-x">Stay up-to-date about latest tech and new world. Unsubscribe at anytime!</p>
+        <div class="content">
+          <div class="align">
+            <div class="pex">
+              <h2 class="m-nws">Subscribe to our monthly newsletter</h2>
+              <p class="px">Stay up-to-date about latest tech and new world. Unsubscribe at anytime!</p>
+            </div>
+          </div>
+          <!------------->
+          <div class="form-x">
+            <input type="text" value="" name="NAME" id="mce-NAME" placeholder="Full Name">
+            <input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Your email address *">
+            <button class="btn" type="submit" name="subscribe" id="subscribe"><span class="btn-content"><span>Subscribe
+                  Now</span><i class="fa-solid fa-arrow-right"></i></span>
+            </button>
           </div>
         </div>
-        <!------------->
-        <form class="form-x">
-          <ul>
-            <li>
-
-              <input type="text" value="" name="NAME" id="mce-NAME" placeholder="Full Name">
-
-            </li>
-            <li>
-              <input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Your email address *">
-            </li>
-            <li>
-              <button type="submit" name="subscribe" id="subscribe" class="input-text">Subscribe Now
-                <i class="fa-solid fa-arrow-right"></i></button>
-
-            </li>
-          </ul>
-        </form>
       </div>
     </div>
   </section>
   <!---end newsletter--->
 
   <!---start footer---->
-
+  <hr>
   <footer class="footer">
     <div class="container">
       <div class="row gy-3">
@@ -702,7 +698,7 @@
       </svg>
     </i>
   </a>
-  <!--------->
+  <!----THE END---->
 </body>
 
 </html>
